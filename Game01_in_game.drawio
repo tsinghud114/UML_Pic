@@ -1,20 +1,20 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="4hwF0aWYJGtDHO5Q7QcN">
-    <mxGraphModel dx="1193" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="994" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="L9OXir_6QbDfjr2EL5Ej-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="point_manager 分数系统" vertex="1">
-          <mxGeometry height="220" width="340" x="210" y="717" as="geometry" />
+          <mxGeometry height="220" width="370" x="160" y="717" as="geometry" />
         </mxCell>
-        <mxCell id="L9OXir_6QbDfjr2EL5Ej-6" parent="L9OXir_6QbDfjr2EL5Ej-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- target_point 通关所需的目标分数&lt;div&gt;-&amp;nbsp;current_point 当前的分数&lt;/div&gt;&lt;div&gt;-&amp;nbsp;operation_point_1 参与运算的分数1&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;operation_point_2 参与运算的分数2&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="74" width="340" y="26" as="geometry" />
+        <mxCell id="L9OXir_6QbDfjr2EL5Ej-6" parent="L9OXir_6QbDfjr2EL5Ej-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- target_point:int 通关所需的目标分数&lt;div&gt;-&amp;nbsp;current_point:int 当前的分数&lt;/div&gt;&lt;div&gt;-&amp;nbsp;operation_point_1:int 参与运算的分数1&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;operation_point_2:int 参与运算的分数2&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="370" y="26" as="geometry" />
         </mxCell>
         <mxCell id="L9OXir_6QbDfjr2EL5Ej-7" parent="L9OXir_6QbDfjr2EL5Ej-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="340" y="100" as="geometry" />
+          <mxGeometry height="8" width="370" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="L9OXir_6QbDfjr2EL5Ej-8" parent="L9OXir_6QbDfjr2EL5Ej-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ set_operation_point() 修改运算分数&lt;div&gt;+ set_currrent_point() 修改当前的总分数&lt;/div&gt;&lt;div&gt;+ compare_point():bool 检测当前分数是否达到通关要求&lt;/div&gt;" vertex="1">
-          <mxGeometry height="112" width="340" y="108" as="geometry" />
+        <mxCell id="L9OXir_6QbDfjr2EL5Ej-8" parent="L9OXir_6QbDfjr2EL5Ej-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ _set_operation_point(point_num:int;mode:int;set_count:float/int) 修改运算分数&lt;div&gt;+ _set_currrent_point() 修改当前的总分数&lt;/div&gt;&lt;div&gt;+ _compare_point():bool 检测当前分数是否达到通关要求&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112" width="370" y="108" as="geometry" />
         </mxCell>
         <mxCell id="L9OXir_6QbDfjr2EL5Ej-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="work_station_area 工位区" vertex="1">
           <mxGeometry height="220" width="370" x="1120" y="717" as="geometry" />
@@ -25,7 +25,7 @@
         <mxCell id="L9OXir_6QbDfjr2EL5Ej-11" parent="L9OXir_6QbDfjr2EL5Ej-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="370" y="112" as="geometry" />
         </mxCell>
-        <mxCell id="L9OXir_6QbDfjr2EL5Ej-12" parent="L9OXir_6QbDfjr2EL5Ej-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ get_placement_area_count() 获取工位放置区的数量&lt;div&gt;+ exchange_work_station_position() 交换工位位置&lt;/div&gt;" vertex="1">
+        <mxCell id="L9OXir_6QbDfjr2EL5Ej-12" parent="L9OXir_6QbDfjr2EL5Ej-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ _get_placement_area_count():int 获取工位放置区的数量&lt;div&gt;+ _exchange_work_station_position() 交换工位位置&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="370" y="120" as="geometry" />
         </mxCell>
         <mxCell id="L9OXir_6QbDfjr2EL5Ej-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="save_funclist 单局存档" vertex="1">
@@ -39,19 +39,19 @@
         <mxCell id="L9OXir_6QbDfjr2EL5Ej-15" parent="L9OXir_6QbDfjr2EL5Ej-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="200" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="L9OXir_6QbDfjr2EL5Ej-16" parent="L9OXir_6QbDfjr2EL5Ej-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ _set_save_funclist() 修改存档&lt;div&gt;- _get_save_funclist() 加载存档&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="L9OXir_6QbDfjr2EL5Ej-16" parent="L9OXir_6QbDfjr2EL5Ej-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ _set_save_funclist() 修改存档&lt;div&gt;+ _get_save_funclist() 加载存档&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="162" width="200" y="168" as="geometry" />
         </mxCell>
         <mxCell id="L9OXir_6QbDfjr2EL5Ej-21" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="character_area 角色区" vertex="1">
           <mxGeometry height="220" width="370" x="660" y="717" as="geometry" />
         </mxCell>
-        <mxCell id="L9OXir_6QbDfjr2EL5Ej-22" parent="L9OXir_6QbDfjr2EL5Ej-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- characters 角色区中的角色" vertex="1">
+        <mxCell id="L9OXir_6QbDfjr2EL5Ej-22" parent="L9OXir_6QbDfjr2EL5Ej-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- characters:character[ ] 角色区中的角色" vertex="1">
           <mxGeometry height="86" width="370" y="26" as="geometry" />
         </mxCell>
         <mxCell id="L9OXir_6QbDfjr2EL5Ej-23" parent="L9OXir_6QbDfjr2EL5Ej-21" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="370" y="112" as="geometry" />
         </mxCell>
-        <mxCell id="L9OXir_6QbDfjr2EL5Ej-24" parent="L9OXir_6QbDfjr2EL5Ej-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ add_character() 向角色区中添加角色&lt;div&gt;+ use_character() 使用角色&lt;/div&gt;&lt;div&gt;+ get_character() 获取角色区中的角色&lt;/div&gt;&lt;div&gt;+ get_character_count() 获取角色区中的角色数量&lt;/div&gt;" vertex="1">
+        <mxCell id="L9OXir_6QbDfjr2EL5Ej-24" parent="L9OXir_6QbDfjr2EL5Ej-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ _add_character() 向角色区中添加角色&lt;div&gt;+ _use_character() 使用角色&lt;/div&gt;&lt;div&gt;+ _get_character():character[ ] 获取角色区中的角色&lt;/div&gt;&lt;div&gt;+ _get_character_count():int 获取角色区中的角色数量&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="370" y="120" as="geometry" />
         </mxCell>
         <mxCell id="ZnhA561Gu7zYcNtDmdWW-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="prop_area 道具区" vertex="1">
