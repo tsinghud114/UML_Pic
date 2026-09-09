@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="第 1 页">
-    <mxGraphModel dx="1193" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="994" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -19,13 +19,13 @@
         <mxCell id="HZpn3Ze4UA1msKI8i4xR-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="work_station 工位" vertex="1">
           <mxGeometry height="200" width="270" x="200" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="HZpn3Ze4UA1msKI8i4xR-1" parent="HZpn3Ze4UA1msKI8i4xR-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- rarity:enum 稀有度&lt;/div&gt;&lt;div&gt;- placement_area_count:int 放置区数量&lt;/div&gt;&lt;div&gt;- characters_placed:character[ ] 已放置的角色&lt;/div&gt;" vertex="1">
+        <mxCell id="HZpn3Ze4UA1msKI8i4xR-1" parent="HZpn3Ze4UA1msKI8i4xR-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- rarity:enum 稀有度&lt;/div&gt;&lt;div&gt;- placement_area_count:int 放置区数量&lt;/div&gt;" vertex="1">
           <mxGeometry height="74" width="270" y="26" as="geometry" />
         </mxCell>
         <mxCell id="HZpn3Ze4UA1msKI8i4xR-2" parent="HZpn3Ze4UA1msKI8i4xR-0" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="270" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="HZpn3Ze4UA1msKI8i4xR-3" parent="HZpn3Ze4UA1msKI8i4xR-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ _place_character() 放置角色的效果&lt;div&gt;+ _get_placement_area_count():int 获取剩余放置区数量&lt;/div&gt;" vertex="1">
+        <mxCell id="HZpn3Ze4UA1msKI8i4xR-3" parent="HZpn3Ze4UA1msKI8i4xR-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ _place_character() 放置角色的效果" vertex="1">
           <mxGeometry height="92" width="270" y="108" as="geometry" />
         </mxCell>
         <mxCell id="mcEiw5UBoXQk_WVPPcn2-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="prop 道具" vertex="1">
@@ -38,6 +38,54 @@
           <mxGeometry height="8" width="270" y="100" as="geometry" />
         </mxCell>
         <mxCell id="mcEiw5UBoXQk_WVPPcn2-3" parent="mcEiw5UBoXQk_WVPPcn2-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ _trigger_prop() 触发道具的效果" vertex="1">
+          <mxGeometry height="92" width="270" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-0" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IqpqbPyEnN6UTxQbQZoo-1" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="CPM_sGFxlUfifmt9Dr-3-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="430" as="sourcePoint" />
+            <mxPoint x="820" y="163.06" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-1" connectable="0" parent="CPM_sGFxlUfifmt9Dr-3-0" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="parent" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-2" connectable="0" parent="CPM_sGFxlUfifmt9Dr-3-0" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" value="child" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="character_in_game 局内角色" vertex="1">
+          <mxGeometry height="200" width="270" x="860" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-4" parent="CPM_sGFxlUfifmt9Dr-3-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- dice_point 骰子点数" vertex="1">
+          <mxGeometry height="74" width="270" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-5" parent="CPM_sGFxlUfifmt9Dr-3-3" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="270" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-6" parent="CPM_sGFxlUfifmt9Dr-3-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ _set_dice_point() 设置随机骰子点数" vertex="1">
+          <mxGeometry height="92" width="270" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-7" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HZpn3Ze4UA1msKI8i4xR-1" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="CPM_sGFxlUfifmt9Dr-3-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="410" as="sourcePoint" />
+            <mxPoint x="880" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-8" connectable="0" parent="CPM_sGFxlUfifmt9Dr-3-7" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="parent" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-9" connectable="0" parent="CPM_sGFxlUfifmt9Dr-3-7" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" value="child" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-10" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="work_station_in_game 工位" vertex="1">
+          <mxGeometry height="200" width="270" x="860" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-11" parent="CPM_sGFxlUfifmt9Dr-3-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- characters_placed:character_in_game[ ] 已放置的角色&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="270" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-12" parent="CPM_sGFxlUfifmt9Dr-3-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="270" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CPM_sGFxlUfifmt9Dr-3-13" parent="CPM_sGFxlUfifmt9Dr-3-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ _get_placement_area_count():int 获取剩余放置区数量&lt;/div&gt;" vertex="1">
           <mxGeometry height="92" width="270" y="108" as="geometry" />
         </mxCell>
       </root>
